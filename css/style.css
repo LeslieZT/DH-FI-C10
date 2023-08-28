@@ -122,6 +122,23 @@ footer img {
   right: 30px;
 }
 
+.floating-button {
+  position: fixed;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #00669f;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 480px) {
   .container {
     height: auto;
